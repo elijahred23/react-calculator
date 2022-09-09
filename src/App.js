@@ -5,7 +5,9 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <Calculator />
+    <Calculator num1={8} num2={5}/>
+    <Calculator num1={3} operator={'*'} num2={2}/>
+    <Calculator num1={6} operator={'/'} num2={4}/>
     </div>
   );
 }
